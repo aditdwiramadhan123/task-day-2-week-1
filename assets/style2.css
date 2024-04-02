@@ -59,6 +59,7 @@ body {
   color: white;
   font-weight: bold;
   border: none;
+  cursor: pointer;
 }
 
 .container {
@@ -91,6 +92,11 @@ textarea {
   background-color: #ffff;
   border: none;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+    resize: none;
+    height: 80px;
 }
 
 .containerButton {
